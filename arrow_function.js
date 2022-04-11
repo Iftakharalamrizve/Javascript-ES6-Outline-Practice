@@ -41,6 +41,7 @@ let exampleTwo = (listInfo) => {
 
 
 let studentRecords = {
+
     studentMarksInfo : [
         {
             studentId : 1 ,
@@ -63,6 +64,7 @@ let studentRecords = {
             mark : 29
         }
     ] ,
+
     defineGrade : function(){
 
         // this section i can use this.studentMarksInfo  
@@ -86,6 +88,7 @@ let studentRecords = {
 
 
     }
+    
 }
 
 studentRecords.defineGrade();
